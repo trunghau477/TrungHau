@@ -1,0 +1,34 @@
+ Lớp InetAddress dược sử dụng đẻ biểu diễn các địa chỉ ip
+           Một số phương thức quan trọng:
+InetAddress getLocalHost() : Trả về đối tượng InetAddress là địa chỉ của máy cục bộ (local host)
+InetAddress getByName() : Phương thức này nhận địa chỉ của một máy bằng kiễu chuỗi, và trả về đối tượng InetAddress (địa chỉ IP) của địa chỉ này.
+InetAddress[] getAllByName() : Phương thức này nhận địa chỉ của máy bằng kiểu chuỗi và trả về tất cả các đối tượng InetAddress của địa chỉ 
+này (Một địa hostname có thể có nhiều địa chỉ address khác nhau).
+Byte[] getAddress() : Trả về địa chỉ IP của đối tượng InetAddress dưới dạng một dãy các bytes.
+String getHostAddress() : Trả về địa chỉ IP của đối tượng InetAddress dưới dạng một chuỗi được định dạng phân làm 4 nhóm %d.%d.%d.%d (ví dụ 192.168.82.3).
+------------
+Câu 1: KiemtraIP
+- lấy địa chỉ ip đã nhập vào
+Câu 2:CHUYỂN TỪ NHỊ PHÂN QUA HECXA
+
+câu 4: trả về ip của máy cục bộ
+câu 5:
+Phương thức equals() so sánh hai chuỗi đưa ra dựa trên nội dung của chuỗi. Nếu hai chuỗi khác nhau nó trả về false.
+ Nếu hai chuỗi bằng nhau nó trả về true.
+Địa chỉ multicast giống địa chỉ broadcast ở chỗ điểm đích của gói tin là một nhóm các máy trong một mạng, song không phải tất cả các máy.
+ Trong khi broadcast gửi trực tiếp tới mọi host trong một suthì multicast chỉ gửi trực tiếp cho một nhóm xác định các host,
+ các host này lại có thể thuộc các sukhác nhau. Host có thể lựa chọn có tham gia vào một nhóm multicast cụ thể nào đó hay không
+ (thường được thực hiện với thủ tục quản lý nhóm inte- InteGroup Management Protocol), trong khi đó với broadcast,
+ mọi host là thành viên của nhóm broadcast bất kể nó có muốn hay không.
+
+127.0.0.1 là một địa chỉ IP đặc biệt, là một địa chỉ xác định một máy tính trên mạng. Và nó còn được gọi là loopback IP, 
+chúng được sử dụng rất phổ biến. Trong chức năng của loopback nó chứa hơn 16 triệu địa chỉ IP, một số chương trình sử dụng địa chỉ này 
+để liên lạc với máy tính đang chạy. (nó là địa chỉ cục bộ)
+
+Câu 1: KiemtraIP
+Câu 2: TimIPCuaMien
+Câu 3: TimMienCuaIP
+Câu 4: TimIPMayCucBo
+Câu 5: KiemTraIP_Advence
+Câu 6: KiemTraIPHaiMien
+
