@@ -10,7 +10,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 // hihi
-//haha
 namespace Bai6
 {
     public partial class Form1 : Form
