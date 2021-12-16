@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+//jhaha
 namespace Bai6
 {
     public partial class Form2 : Form
